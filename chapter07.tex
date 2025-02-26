@@ -640,6 +640,16 @@ for (int y = 1; y <= N; y++) {
     }
 }
 \end{lstlisting}
+However, below is a better solution that only uses one dimensional
+array to keep track of the maximum sums
+\begin{lstlisting}
+for (int y = 1; y < N; ++y) {
+    sum[0] += value[y][0];
+    for (int x = 1; x < N; ++x) {
+      sum[x] = value[y][x] + max(sum[x-1], sum[x]);
+    }
+}  
+\end{lstlisting}
 The time complexity of the algorithm is $O(n^2)$.
 
 \section{Knapsack problems}

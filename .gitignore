@@ -4,3 +4,9 @@
 *.out
 *.toc
 *.gz
+*.log
+*.ilg
+*.ind
+*.fls
+*.fdb_latexmk
+*.bbl
