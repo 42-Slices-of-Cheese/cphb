@@ -22,4 +22,4 @@ There is also a Russian edition Олимпиадное программиров�
 https://cses.fi/book/
 
 ## Disclaimer
-This fork is intended to be used only by myself. You my use this fork, but this is not the orgininal source.
+This fork is intended to be used only by myself. You my use this fork, but this is not the origninal source.
